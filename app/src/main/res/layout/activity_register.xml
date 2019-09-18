@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2ECC71"
+    tools:context=".RegisterActivity">
+
+
+    <EditText
+        android:drawableTint="@android:color/background_dark"
+        android:id="@+id/UserName"
+        android:paddingLeft="5dp"
+        android:drawableLeft="@drawable/ic_action_man"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="79dp"
+        android:background="@drawable/side_nav_bar"
+        android:ems="10"
+        android:textAlignment="center"
+        android:hint="Enter username"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_man"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/UserName"
+        android:layout_alignRight="@+id/UserName"
+        android:layout_below="@+id/UserName"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter Name"
+        android:background="@drawable/side_nav_bar"/>
+
+    <EditText
+        android:id="@+id/Age"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_age"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/Name"
+        android:layout_alignRight="@+id/Name"
+        android:layout_below="@+id/Name"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Age"
+        android:background="@drawable/side_nav_bar"/>
+
+    <EditText
+        android:id="@+id/Weight"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/Age"
+        android:layout_alignRight="@+id/Age"
+        android:layout_below="@+id/Age"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Weight"
+        android:background="@drawable/side_nav_bar"/>
+
+
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_email"
+        android:textAlignment="center"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/Weight"
+        android:layout_alignRight="@+id/Weight"
+        android:layout_below="@+id/Weight"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Email Address"
+        android:background="@drawable/side_nav_bar"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:paddingLeft="5dp"
+        android:drawingCacheQuality="auto"
+        android:drawableTint="@android:color/background_dark"
+        android:drawableLeft="@drawable/ic_action_pass"
+        android:background="@drawable/side_nav_bar"
+        android:layout_width="320dp"
+        android:layout_height="55dp"
+        android:textAlignment="center"
+        android:layout_alignEnd="@+id/Email"
+        android:layout_alignRight="@+id/Email"
+        android:layout_below="@+id/Email"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter password" />
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/cerclebackgroundyello"
+        android:text="sign up" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Sign up"
+        android:textSize="20dp"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"/>
+
+</RelativeLayout>
