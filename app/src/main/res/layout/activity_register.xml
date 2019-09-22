@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2ECC71"
+    android:background="@drawable/bg"
     tools:context=".RegisterActivity">
 
 
@@ -120,12 +120,12 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
+        android:layout_width="312dp"
+        android:layout_height="61dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="56dp"
-        android:background="@drawable/cerclebackgroundyello"
+        android:background="@drawable/butonn"
         android:text="sign up" />
 
     <TextView

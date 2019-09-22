@@ -1,83 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PressureActivity"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:background="@drawable/rsz_footbottom3">
 
 
-    <RelativeLayout
+    <TextView
+        android:id="@+id/topp"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="103dp"
+        android:layout_marginTop="194dp"
+        android:background="#FFF" />
 
-        android:layout_width="match_parent"
-        android:layout_height="550dp"
-        android:background="@drawable/foot">
+    <TextView
+        android:id="@+id/leftt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="292dp"
+        android:background="#FFF" />
 
-        <LinearLayout
-            android:id="@+id/topp"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="20dp"
-            android:orientation="vertical"></LinearLayout>
+    <TextView
+        android:id="@+id/rightt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="292dp"
+        android:layout_marginTop="324dp"
+        android:background="#FFF" />
 
-        <LinearLayout
-            android:id="@+id/mid"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="140dp"
-            android:orientation="vertical"></LinearLayout>
-
-
-        <LinearLayout
-            android:id="@+id/midw"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="280dp"
-            android:layout_marginTop="190dp"
-            android:orientation="vertical"></LinearLayout>
-
-
-        <LinearLayout
-            android:id="@+id/ld"
-            android:layout_width="80dp"
-            android:layout_height="70dp"
-            android:layout_marginLeft="190dp"
-            android:layout_marginTop="420dp"
-            android:orientation="vertical"></LinearLayout>
+    <TextView
+        android:id="@+id/bott"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="528dp"
+        android:background="#FFF" />
 
 
-    </RelativeLayout>
+</RelativeLayout>
 
     <!--
      -->
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="20dp"
-    android:text="High"
-    android:textColor="#FF0000"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="Marginal"
-        android:textColor="#FFFF00"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="Low"
-        android:textColor="#000000"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="Right"
-        android:textColor="#008000"/>
-
-
-
-
-</LinearLayout>

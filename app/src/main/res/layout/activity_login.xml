@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2ECC71"
+    android:background="@drawable/bg"
     tools:context=".LoginActivity">
 
 
@@ -65,12 +65,12 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
+        android:layout_width="211dp"
+        android:layout_height="52dp"
         android:layout_below="@+id/checkBox"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="29dp"
-        android:background="@android:color/holo_green_dark"
+        android:background="@drawable/butonn"
         android:text="Log in"
         android:textColor="@android:color/white"
         android:textStyle="bold" />
@@ -103,13 +103,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignEnd="@+id/login"
-        android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/login"
+        android:layout_alignParentBottom="true"
         android:layout_marginBottom="14dp"
         android:text="Don't have any account?? signUp"
-        android:textStyle="bold"
         android:textColor="@android:color/black"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView4"

@@ -1,50 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".VisualActivity"
-    android:orientation="vertical">
+    android:background="@drawable/bg"
+    tools:context=".GyroscopeActivity">
 
-        <RelativeLayout
-            android:id="@+id/press"
-            android:layout_width="match_parent"
-            android:layout_height="260dp">
 
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="260dp"
-                android:text="Pressure"
-                android:textSize="40dp"/>
+    <ImageButton
+        android:id="@+id/imageHome"
+        android:layout_width="159dp"
+        android:layout_height="123dp"
+        android:layout_above="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/logo" />
 
-        </RelativeLayout>
+    <ImageButton
+        android:id="@+id/imageProfile"
+        android:layout_width="129dp"
+        android:layout_height="123dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="0dp"
+        app:srcCompat="@drawable/profile" />
 
-        <RelativeLayout
-            android:id="@+id/gyr"
-            android:layout_width="match_parent"
-            android:layout_height="260dp"
-            android:layout_below="@+id/press">
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="260dp"
-                android:text="Gyroscope"
-                android:textSize="40dp"/>
-
-        </RelativeLayout>
-
-    <RelativeLayout
+    <Button
+        android:id="@+id/btnprs"
         android:layout_width="match_parent"
-        android:layout_height="260dp"
-        android:layout_below="@+id/gyr">
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/butonn"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="158dp"
+        android:text="Pressure" />
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="260dp" />
+    <Button
+        android:id="@+id/btnang"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/butonn"
+        android:layout_marginTop="289dp"
+        android:text="Angle" />
 
-    </RelativeLayout>
+    <Button
+        android:id="@+id/btnrpt"
+        android:layout_width="match_parent"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:background="@drawable/butonn"
+        android:layout_marginTop="427dp"
+        android:text="Generate Report" />
 
 
-
-</LinearLayout>
+</RelativeLayout>
